@@ -78,9 +78,10 @@ dpkg-reconfigure tzdata
 
 mtr 8.8.8.8
 
+click D for better view
+
 [active connections visualisation tool]
 
-click D for better view
 -----------
 
 systemd-cgls
