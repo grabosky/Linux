@@ -1,1 +1,1 @@
-Collection of things related to Linux (commands, usefull scripts etc.)
+Collection of commands for Linux
