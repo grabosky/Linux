@@ -1,0 +1,88 @@
+
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ SYSTEM ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+
+uname -a
+
+[name of system]
+------
+
+last |grep "logged in"
+
+[check who is currently logged in]
+---------
+
+dpkg --get-selections | grep -v deinstall
+
+[lists all installed packages]
+or
+[save list of all installed packages]:
+
+dpkg --get-selections | grep -v deinstall > ~/packages.txt
+--------
+
+dpkg --list
+
+[list packages in the system]
+----
+
+dpkg --info packageName
+
+[get info about package]
+----
+
+# apt-get remove packageName
+
+[delete package]
+----
+
+pwd 
+
+[shows local current dir]
+------
+
+mv old-file-name.txt new-file-name.txt
+
+[change filename]
+------
+
+sudo rm -rf /etc/share/doc
+
+[delete folder and all of its content]
+------
+
+ls -LR
+
+[list all folders and subfolders and files in dir]
+----
+
+du -sh *
+
+[list of files in dir + sizes of files]
+------
+
+tar -czf files.tar.gz *
+
+[tar all files in current directory]
+-----
+
+sudo netstat -peanut
+
+[show which process usess which port]
+----------
+
+dpkg-reconfigure tzdata
+
+[change timezone]
+
+----------
+
+mtr 8.8.8.8
+
+[active connections visualisation tool]
+
+click [D] for better view
+-----------
+
+systemd-cgls
+
+[see all processess and their branches]
