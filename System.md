@@ -14,10 +14,10 @@ last |grep "logged in"
 dpkg --get-selections | grep -v deinstall
 
 [lists all installed packages]
-or
-[save list of all installed packages]:
 
 dpkg --get-selections | grep -v deinstall > ~/packages.txt
+
+[save list of all installed packages]
 --------
 
 dpkg --list
@@ -30,7 +30,7 @@ dpkg --info packageName
 [get info about package]
 ----
 
-# apt-get remove packageName
+apt-get remove packageName
 
 [delete package]
 ----
@@ -80,7 +80,7 @@ mtr 8.8.8.8
 
 [active connections visualisation tool]
 
-click [D] for better view
+click D for better view
 -----------
 
 systemd-cgls
