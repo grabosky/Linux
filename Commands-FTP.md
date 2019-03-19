@@ -1,0 +1,27 @@
+sudo systemctl status vsftpd
+
+[shows status of ftp server]
+-------
+
+sudo nano /etc/vsftpd.conf
+
+[change config file]
+--------
+
+sudo service vsftpd restart
+
+[restart vsftpd]
+--------
+
+sudo adduser LOGIN_ID www-data
+
+[add user to group in /var/www]
+
+then permissions:
+
+sudo chmod g+rwX -R /var/www
+--------
+
+sudo ln -s /var/www /home/LOGIN_ID/
+
+[make shortcut /varwww to home dir]
