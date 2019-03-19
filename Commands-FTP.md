@@ -1,3 +1,6 @@
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ FTP ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+
+
 sudo systemctl status vsftpd
 
 [shows status of ftp server]
