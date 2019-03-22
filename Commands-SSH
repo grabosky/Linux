@@ -1,0 +1,37 @@
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[SSH]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+
+ssh -p 22 login@192.168.1.100
+
+[connecting to remote ssh where -p = port #]
+-----------------
+
+service ssh restart
+
+[restart ssh]
+------------
+
+sudo vim /etc/ssh/sshd_config
+
+[edit ssh options ie. allowrootlogin]
+type i to change
+type ESC, :, w, q, Enter to save and exit vim
+---------
+
+sudo ssh -D 8120 -f -C -q -N user@yourremotehostnameorip.com
+
+1. start this it will open on port 8120 in vps
+2. if on Windows, use Putty with open port 1335 on localhost (this might need extra configuration)
+3. use Firefox with proxy: localhost:1335
+
+[this starts SOCKS5 VPN Endpoint (Secure VPS)]
+-----
+
+ps -aux | grep ssh
+
+[to check open SSH connections]
+
+------
+
+mtr 8.8.8.8
+
+[see active network connections - like to which ISP you are currently connected]
