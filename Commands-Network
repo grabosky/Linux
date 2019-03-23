@@ -6,3 +6,7 @@ netstat -ntlp | grep LISTEN
 
 -------------------------------------------------------------------------------------
 
+
+mtr 8.8.8.8
+
+[see and monitor active outside network connections - like to which nodes/ISPs you are currently connected]
