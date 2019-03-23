@@ -32,6 +32,3 @@ ps -aux | grep ssh
 
 ------
 
-mtr 8.8.8.8
-
-[see active network connections - like to which ISP you are currently connected]
