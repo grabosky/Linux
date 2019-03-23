@@ -4,6 +4,12 @@ netstat -ntlp | grep LISTEN
 
 [shows all listening ports of localhost]
 
+if want to investigate further:
+
+sudo netstat -ntlp | grep :1000
+
+where 1000 = port number
+
 -------------------------------------------------------------------------------------
 
 
