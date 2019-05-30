@@ -16,3 +16,23 @@ where 1000 = port number
 mtr 8.8.8.8
 
 [see and monitor active outside network connections - like to which nodes/ISPs you are currently connected, click D for better view]
+
+
+-------------------------------------------------------------------------------------
+
+nmap localhost
+
+[shows open ports on localhost]
+
+------------------------------------------------------------------------------------
+
+nmap -sP 192.168.1.1/24
+
+[scan all devices in a network]
+OR
+simply use: 
+arp -a -n
+
+------------------------------------------------------------------------------------
+
+
