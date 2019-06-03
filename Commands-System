@@ -103,7 +103,7 @@ ps -u username
 
 ---------- 
 
-top -U [username]
+top -U username
 
 [see all PIDs of current open processes of username]
 
