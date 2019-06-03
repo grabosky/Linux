@@ -92,6 +92,19 @@ systemd-cgls
 
 fuser -m /run/user/username 
 
-[see all process PIDs of a given username]
+[see all processes PIDs of a given username]
+
+---------- 
+
+
+ps -u username
+
+[see snapshot of all PIDs of current open processes of username]
+
+---------- 
+
+top -U [username]
+
+[see all PIDs of current open processes of username]
 
 ---------- 
