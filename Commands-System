@@ -89,3 +89,9 @@ systemd-cgls
 [see all processess and their branches]
 
 ----------
+
+fuser -m /run/user/username 
+
+[see all process PIDs of a given username]
+
+---------- 
