@@ -15,7 +15,7 @@ where 1000 = port number
 
 mtr 8.8.8.8
 
-[see and monitor active outside network connections - like to which nodes/ISPs you are currently connected, click D for better view]
+[see and monitor live active route to the server, click D for better view]
 
 
 -------------------------------------------------------------------------------------
