@@ -52,3 +52,8 @@ nmap -d -d 192.168.1.100
 
 [scan remote ports "when its not possible"]
 
+------------------------------------------------------------------------------------
+
+sudo netstat -peanut
+
+[show which process usess which port]
