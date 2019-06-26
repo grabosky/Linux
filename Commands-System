@@ -108,3 +108,10 @@ top -U username
 [see all PIDs of current open processes of username]
 
 ---------- 
+
+ps h -ewo %p,%P,%x,%t,%u,%c,%a
+
+[check all info on a current process list]
+[checks: PID, PPID, START_TIME, UP_TIME, USER, COMMANDS, ARGUMENTS]
+
+----------
