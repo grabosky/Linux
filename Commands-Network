@@ -63,3 +63,9 @@ sudo netstat -peanut
 sudo ifconfig -a
 
 [display all network ports and ip address]
+
+------------------------------------------------------------------------------------
+
+dig domain
+
+[get DNS information for domain
