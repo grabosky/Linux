@@ -1,6 +1,6 @@
 [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ DISK USAGE ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
 
-df -h
+df -h 
 
 [check disk usage in human readible format]
 ------
