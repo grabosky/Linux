@@ -6,6 +6,11 @@ uname -a
 [name of system]
 ------
 
+uname -r
+
+[kernel release information]
+------
+
 last |grep "logged in"
 
 [check who is currently logged in]
