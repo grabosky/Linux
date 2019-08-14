@@ -1,0 +1,59 @@
+Vim: 3 Modes: Command Mode (esc), Insert Mode (I), Ex Mode
+==================================
+Motion Keys available:
+
+Motion	Result
+h	      Left one character
+j     	Down one line
+k     	Up one line
+l      	Right one character
+w     	One word forward
+b     	One word back
+^	      Beginning of line
+$	      End of the line
+
+----------------------------------
+Command Mode Actions
+
+Standard	  Vi  	    Meaning
+cut     	  d	        delete
+copy    	  y	        yank
+paste	      P | p	    put
+
+Commands in a format:
+action [count] motion
+[count] action motion
+
+==================================
+Examples:
+==================================
+Delete Examples:
+
+Action	Result
+dd    	Delete current line
+3dd	    Delete the next three lines
+dw	    Delete the current word
+d3w	    Delete the next three words
+d4h   	Delete four characters to the left
+----------------------------------
+Change Examples:
+
+Action	Result
+cc    	Change current line
+cw    	Change current word
+c3w   	Change the next three words
+c5h   	Change five characters to the left
+----------------------------------
+Yank (Copy) Examples:
+
+Action	Result
+yy	    Yank current line
+3yy   	Yank the next three lines
+yw	    Yank the current word
+y$	    Yank to the end of the line
+----------------------------------
+Put (Paste) Examples:
+
+Action	Result
+p	      Put (paste) after cursor
+P	      Put before cursor
