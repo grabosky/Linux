@@ -9,15 +9,15 @@ k     	Up one line
 l      	Right one character
 w     	One word forward
 b     	One word back
-^	      Beginning of line
-$	      End of the line
+^	     Beginning of line
+$	     End of the line
 
 ----------------------------------
 Command Mode Actions
 
 Standard	  Vi  	    Meaning
-cut     	  d	        delete
-copy    	  y	        yank
+cut     	  d	       delete
+copy    	  y	       yank
 paste	      P | p	    put
 
 Commands in a format:
