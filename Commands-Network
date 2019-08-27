@@ -69,3 +69,5 @@ sudo ifconfig -a
 dig domain
 
 [get DNS information for domain]
+
+
