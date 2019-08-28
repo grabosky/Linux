@@ -31,4 +31,3 @@ ps -aux | grep ssh
 [to check open SSH connections]
 
 ------
-
