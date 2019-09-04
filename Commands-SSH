@@ -2,7 +2,7 @@
 
 ssh -p 22 login@192.168.1.100
 
-[connecting to remote ssh where -p # = port #]
+[connecting to remote ssh where -p # == port #]
 -----------------
 
 service ssh restart
