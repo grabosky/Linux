@@ -3,6 +3,7 @@
 df -h 
 
 [check disk usage in human readible format]
+
 ------
 
 du -a /usr | sort -n -r | head -n 20
@@ -16,8 +17,11 @@ sudo apt-get autoclean
 sudo apt-get autoremove
 
 [cleaning up space]
+
 -------
 
 sudo find / -name "docker"
 
 [finding file or folder in /*]
+
+-------
