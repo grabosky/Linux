@@ -11,6 +11,11 @@ uname -r
 [kernel release information]
 ------
 
+cat /etc/*release
+
+[release all etc information]
+------
+
 last |grep "logged in"
 
 [check who is currently logged in]
