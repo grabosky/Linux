@@ -11,6 +11,11 @@ uname -r
 [kernel release information]
 ------
 
+cat /etc/os-release
+
+[release os information]
+------
+
 cat /etc/*release
 
 [release all etc information]
