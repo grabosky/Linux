@@ -4,3 +4,9 @@ ps -ef | grep apache
 
 Get path(s) of current working Apache (www) server processes
 ------------------------------------------
+
+Add path to current working process and define name of the SERVER_CONFIG_FILE (ie. httpd.conf )
+/usr/sbin/apache2 -V | grep SERVER_CONFIG_FILE
+
+Find Config File path of current working Apache (www) server process
+------------------------------------------
