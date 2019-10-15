@@ -1,0 +1,6 @@
+[[[[[[[[[[[[[ Commands-www ]]]]]]]]]]]]]]]
+
+ps -ef | grep apache
+
+Get path(s) of current working Apache (www) server processes
+------------------------------------------
