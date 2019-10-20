@@ -6,4 +6,24 @@ chmod 777 filename
 
 ------
 
+chown owner-user filename
+
+[Change owner of filename]
+
+------
+
+chown owner-user:owner-group filename
+
+[Change owner and group owner of the filename]
+
+------
+
+chown owner-user:owner-group directory
+
+[Change owner and group owner of the directory]
+
+------
+
+
+
 
