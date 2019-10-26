@@ -16,7 +16,7 @@ grep -r pattern dir
 
 grep -rnw '/path/to/somewhere/' -e 'pattern'
 
-[search recursively for pattern in specific dir:
+[search recursively for pattern in specific dir (ie. './' which means current dir ):
 -r or -R is recursive,
 -n is line number, and
 -w stands for match the whole word
