@@ -6,6 +6,12 @@ df -h
 
 ------
 
+du -d 1 -h | sort -h
+
+[uses du to find and sort the biggest files]
+
+------
+
 du -a /usr | sort -n -r | head -n 20
 
 [uses du to search folder /usr and sort the biggest files in there]
