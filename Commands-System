@@ -26,18 +26,19 @@ last |grep "logged in"
 [check who is currently logged in]
 ---------
 
-dpkg --get-selections | grep -v deinstall
+dpkg --get-selections 
 
 [lists all installed packages]
 
-dpkg --get-selections | grep -v deinstall > ~/packages.txt
+dpkg --get-selections | grep -v install > ~/packages.txt
 
 [save list of all installed packages]
 --------
 
 dpkg --list
 
-[list packages in the system]
+[list packages in the system including version, architecture, and description]
+
 ----
 
 dpkg --info packageName
