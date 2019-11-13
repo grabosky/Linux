@@ -47,5 +47,10 @@ find /home -size +10000k
 -------------------------------------------------------------------------------------
 
 
+find /etc -name '*.conf' -exec cp {} /mnt/files \;
 
+[find all files that are ending with .conf extension in a folder /etc and then copy all of those files to folder /mnt/files]
+
+
+-------------------------------------------------------------------------------------
 
