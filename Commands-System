@@ -119,6 +119,12 @@ ps -u username
 
 ---------- 
 
+ps aux --sort -rss
+
+[see snapshot of all current open processes and sort them by most memory usage]
+
+---------- 
+
 top -U username
 
 [see all PIDs of current open processes of username]
