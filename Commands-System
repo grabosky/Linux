@@ -147,3 +147,9 @@ printenv
 lsof
 
 [print list of all currently opened files]
+
+----------
+
+lsof +D /var/log/
+
+[print list of currently opened files under a directory]
