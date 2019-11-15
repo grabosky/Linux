@@ -138,8 +138,6 @@ ps h -ewo %p,%P,%x,%t,%u,%c,%a
 
 ----------
 
+printenv
 
-
-
-
-
+[print shell environmental variables]
