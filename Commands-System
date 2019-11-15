@@ -141,3 +141,9 @@ ps h -ewo %p,%P,%x,%t,%u,%c,%a
 printenv
 
 [print shell environmental variables]
+
+----------
+
+lsof
+
+[print list of all currently opened files]
