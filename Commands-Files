@@ -24,4 +24,13 @@ chown owner-user:owner-group directory
 
 ------
 
+for file in *; do wc -l $file; done
+
+[Find line count for every file in the current directory]
+
+------
+
+
+
+
 
