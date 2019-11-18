@@ -23,14 +23,18 @@ sudo ssh -D 8120 -f -C -q -N user@yourremotehostnameorip.com
 2. if on Windows, use Putty with open port 1335 on localhost (this might need extra configuration)
 3. use Firefox with proxy: localhost:1335
 
-[this starts SOCKS5 VPN Endpoint (Secure VPS)]
+[This starts SOCKS5 VPN Endpoint (Secure VPS)]
+
 -----
 
 ps -aux | grep ssh
 
-[to check open SSH connections]
+[To check open SSH connections]
 
 ------
 
+ssh root@remoteserver.com "ls -a /var/www/html" > output.txt
+
+[Connect to remote server and execute command (list files) and save output of it to local path in output.txt file]
 
 
