@@ -26,7 +26,7 @@ free -h
 
 swapoff -a && swapon -a
 
-[To see used and free swap memory]
+[To free swap memory]
 
 ---------------------------------------------------------------
 
