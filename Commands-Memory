@@ -12,6 +12,12 @@ cat /proc/swaps
 
 ---------------------------------------------------------------
 
+lsblk -o TYPE,NAME,KNAME,UUID,MOUNTPOINT,SIZE
+
+[To see all partitions (including swap memory partition)]
+
+---------------------------------------------------------------
+
 free -h
 
 [To see used and free swap memory]
