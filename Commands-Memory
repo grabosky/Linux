@@ -24,7 +24,7 @@ free -h
 
 ---------------------------------------------------------------
 
-swapoff -a &&v swapon -a
+swapoff -a && swapon -a
 
 [To see used and free swap memory]
 
