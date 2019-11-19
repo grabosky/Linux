@@ -18,6 +18,12 @@ du -a /usr | sort -n -r | head -n 20
 
 ------
 
+lsblk -o TYPE,NAME,KNAME,UUID,MOUNTPOINT,SIZE
+
+[See all partitions and LVMs]
+
+------
+
 sudo apt-get clean
 sudo apt-get autoclean
 sudo apt-get autoremove
