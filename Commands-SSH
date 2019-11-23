@@ -39,4 +39,3 @@ ssh root@remoteserver.com "ls -a /var/www/html" > output.txt
 
 
 
-
