@@ -31,4 +31,12 @@ for file in *; do wc -l $file; done
 ------
 
 
+cat > file
+
+[Save contents of the file into another file]
+
+------
+
+
+
 
