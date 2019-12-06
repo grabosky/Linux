@@ -32,5 +32,3 @@ swapoff -a && swapon -a
 
 
 
-
-
