@@ -144,6 +144,12 @@ ps h -ewo %p,%P,%x,%t,%u,%c,%a
 
 ----------
 
+systemctl list-units
+
+[shows all current running units (services of systemd)]
+
+----------
+
 printenv
 
 [print shell environmental variables]
