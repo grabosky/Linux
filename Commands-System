@@ -125,6 +125,12 @@ ps aux --sort -rss
 
 ---------- 
 
+ps faux
+
+[see snapshot of all current open process threads and their children]
+
+---------- 
+
 top -U username
 
 [see all PIDs of current open processes of username]
