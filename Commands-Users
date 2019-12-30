@@ -1,0 +1,27 @@
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ USERS ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+
+sudo useradd newusername
+
+[add new user "newusername"]
+
+------
+
+sudo useradd -m -g devops newusername
+
+[add new user "newusername", and create "home" folder for it (-m), and add it to devops group (-g)]
+
+------
+
+groups newusername
+
+[check which groups "newusername" user is part of]
+
+------
+
+cat /etc/groups
+
+[show all groups on the system]
+
+------
+
+
