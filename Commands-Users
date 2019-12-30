@@ -12,6 +12,18 @@ sudo useradd -m -g devops newusername
 
 ------
 
+sudo userdel newusername
+
+[deletes user "newusername"]
+
+------
+
+sudo usermod newusername
+
+[edits user "newusername"]
+
+------
+
 groups newusername
 
 [check which groups "newusername" user is part of]
@@ -24,4 +36,9 @@ cat /etc/groups
 
 ------
 
+sudo usermod -a -G devops,mngrs newusername
+
+[adds existing user "newusername" to groups devops and mngrs]
+
+------
 
