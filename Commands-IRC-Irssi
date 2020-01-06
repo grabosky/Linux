@@ -1,0 +1,57 @@
+  
+[[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ IRC: Irssi Client ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
+
+[List of my default commands to run when connecting: ]
+
+/connect chat.freenode.org nickname:password
+/msg NickServ IDENTIFY nickname password
+/ignore * JOINS PARTS QUITS NICKS
+/join #linux
+/join #infra-talk
+/join #devops
+
+---
+
+AUTO ADD:
+[If you want to automatically run number of commands on irssi stratup, ie. connect to server, log in, join specific channels, you can use these: ]
+
+/server add -auto -network fn chat.freenode.org
+/network add -nick nickname -autosendcmd "/msg nickserv IDENTIFY password ; /ignore * JOINS PARTS QUITS NICKS" fn
+/channel add -auto #linux fn
+/channel add -auto #infra-talk fn
+/channel add -auto #devops fn
+
+---
+
+DELETE AUTO ADD:
+[If you want to delete default commands' list run on startup: ]
+
+/channel remove #channel fn
+/network remove fn
+/server remove irc.freenode.net fn
+
+----
+
+ADDITIONAL COMMANDS:
+[List of additional useful commands: ]
+
+Change nick:
+/nick newnick
+
+Register Username:
+/msg nickserv REGISTER password username@gmail.com
+
+Search for channels:
+/msg alis LIST #freenode* -min 10
+
+Close window:
+/WINDOW CLOSE
+
+Highlight messages from specific nick:
+/HILIGHT nick
+
+Write to specific user on main channel (your nick will be highlighted in their client on main channel):
+nicknameOfTheUser: message to write
+
+Clear messages:
+/clear
