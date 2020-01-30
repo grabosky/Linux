@@ -1,4 +1,3 @@
-
 [[[[[[[[[[[[[[[[[[[[[[[[[[[[[[ SYSTEM ]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]]
 
 uname -a
@@ -167,7 +166,6 @@ lsof +D /var/log/
 [print list of currently opened files under a directory]
 
 ----------
-
 
 
 
