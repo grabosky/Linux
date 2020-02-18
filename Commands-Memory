@@ -30,8 +30,11 @@ swapoff -a && swapon -a
 
 ---------------------------------------------------------------
 
+sar -r
 
+[Great tool as part of sysstat to show history of memory usage]
 
+---------------------------------------------------------------
 
 
 
