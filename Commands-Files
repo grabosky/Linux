@@ -30,8 +30,7 @@ for file in *; do wc -l $file; done
 
 ------
 
-
-cat > file
+cat file1 > file2
 
 [Save contents of the file into another file]
 
