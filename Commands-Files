@@ -36,14 +36,15 @@ cat file1 > file2
 
 ------
 
+for file in $(cat list.txt); do cp "$file" new_folder; done
 
+[Copy all files found in a list.txt from local folder to a new_folder]
 
+------
 
+ls -lhS
 
-
-
-
-
+[Show size of all files in current dir in human-readable form and sort them from the largest]
 
 
 
