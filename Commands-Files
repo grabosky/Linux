@@ -46,10 +46,11 @@ ls -lhS
 
 [Show size of all files in current dir in human-readable form and sort them from the largest]
 
+------
 
+find . -type f | rev | cut -d. -f1 | rev  | tr '[:upper:]' '[:lower:]' | sort | uniq --count | sort -rn
 
+[list all filetype extensions in the current directory and print it from the most common with number]
 
-
-
-
+------
 
