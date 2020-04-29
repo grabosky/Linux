@@ -11,10 +11,10 @@ Add path to current working process and define name of the SERVER_CONFIG_FILE (i
 Find Config File path of current working Apache (www) server process
 ------------------------------------------
 
+browsh www.google.com
 
+Open Google in amazing Browsh Text-Based browser that supports HTML5, CSS3, JavaScript, and video (you need to install it first)
 
-
-
-
+------------------------------------------
 
 
