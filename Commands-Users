@@ -49,4 +49,3 @@ sudo usermod -a -G devops,mngrs newusername
 
 
 
-
