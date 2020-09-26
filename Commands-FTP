@@ -27,7 +27,8 @@ sudo chmod g+rwX -R /var/www
 
 sudo ln -s /var/www /home/LOGIN_ID/
 
-[make shortcut /varwww to home dir]
+[make shortcut /var/www to home dir]
+
 
 
 
