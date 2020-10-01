@@ -167,11 +167,11 @@ lsof +D /var/log/
 
 ----------
 
+fsck
 
+[check/repair filesystem]
 
-
-
-
+----------
 
 
 
