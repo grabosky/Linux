@@ -37,11 +37,13 @@ ssh root@remoteserver.com "ls -a /var/www/html" > output.txt
 
 [Connect to remote server and execute command (list files) and save output of it to local path in output.txt file]
 
+------
 
+sudo lastb -a | more
 
+[Shows who was trying to open a new SSH session. Shows login attempt and from which IP]
 
-
-
+------
 
 
 
