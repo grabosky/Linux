@@ -38,7 +38,11 @@ sudo find / -name "docker"
 
 -------
 
+grep -i username /proc/mounts
 
+[find out mount points of Virtual File System - VirtFS - for specific username]
+
+------
 
 
 
