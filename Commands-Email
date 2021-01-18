@@ -20,3 +20,4 @@ grep cwd /var/log/exim_mainlog | grep -v /var/spool | awk -F"cwd=" '{print $2}' 
 
 
 
+
