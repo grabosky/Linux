@@ -2,7 +2,11 @@
 
 netstat -ntlp | grep LISTEN
 
-[shows all listening ports of localhost]
+[shows all listening ports of localhost on Debian]
+
+netstat -atupen | grep ESTABLISHED
+
+[shows all established connections of localhost on RHEL]
 
 if want to investigate further:
 
