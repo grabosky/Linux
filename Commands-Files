@@ -24,6 +24,12 @@ chown owner-user:owner-group directory
 
 ------
 
+chown -R username:groupname ./*
+
+[Recurrsively change ownership of all files in a current folder to one specified in username and groupname]
+
+------
+
 for file in *; do wc -l $file; done
 
 [Find line count for every file in the current directory]
