@@ -57,6 +57,12 @@ nmap -d -d 192.168.1.100
 
 ------------------------------------------------------------------------------------
 
+nmap -sV -Pn --script vulners IP-ADDRESS
+
+[scans host for open ports, finds it's service and version, and tries to find relevant CVEs on the web]
+
+------------------------------------------------------------------------------------
+
 sudo netstat -peanut
 
 [show which process usess which port]
