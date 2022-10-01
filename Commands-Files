@@ -60,10 +60,11 @@ find . -type f | rev | cut -d. -f1 | rev  | tr '[:upper:]' '[:lower:]' | sort | 
 
 ------
 
+rm -rfv !("test")
 
+[remove all files and dirs in current directory except for the "test" folder; if does not work enable: "shopt -s extglob", you can disable same with "shopt -u extglob"]
 
-
-
+------
 
 
 
